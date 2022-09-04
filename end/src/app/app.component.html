@@ -1,0 +1,32 @@
+<header class="header-6">
+  <div class="branding">
+    <a routerLink="" class="nav-link">
+      <span class="title">ics</span>
+    </a>
+  </div>
+  <div class="header-nav">
+    <a routerLink="" class="active nav-link nav-text">Analyse</a>
+    <a routerLink="images" class="nav-link nav-text">Gallery</a>
+  </div>
+</header>
+
+<div class="container">
+  <p>Change mode!</p>
+  <div>
+    <app-dark-mode-toggle> </app-dark-mode-toggle>
+  </div>
+</div>
+
+<h1>Point to an image tag...<br>
+</h1>
+<input class="url"
+       type="url" name="url" id="url"
+       placeholder="https://example.com"
+       pattern="https://.*" size="30"
+       required>
+<div class="button-container-div">
+  <button>Analyse</button>
+</div>
+
+
+<router-outlet></router-outlet>

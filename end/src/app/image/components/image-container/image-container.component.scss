@@ -1,0 +1,60 @@
+//:host {
+//  display: flex;
+//  flex-direction: column;
+//
+//  gap: 1rem;
+//}
+:host {
+  height: 100vh;
+}
+
+:host,
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: auto 0;
+}
+
+footer {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: inherit;
+}
+
+h1{
+  left: 0;
+  line-height: 100px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.button-container-div{
+  width: 1500px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.url {
+  position:  absolute;
+  top : 350px;
+  left: 600px;
+  width: 400px;
+  height: 50px;
+  border:1px solid black;
+}
+
+button{
+  margin-top: 50px;
+}
